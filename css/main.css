@@ -1,0 +1,57 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kdot {
+	width: calc(40vw);
+	height: calc(100vh - 55px);
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.max-size {
+	max-width: 700px;
+	max-height: calc(100% - 2vh);
+}
+
+.soundboard-container {
+	width: 60vw;
+	height: calc(100vh - 55px);
+	background-color: #555;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.soundboard-item0 {
+	width: 50%;
+	height: calc((100vh - 55px)/3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.soundboard-item {
+	width: 50%;
+	height: calc((100vh - 55px)/3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.color0{
+	background-color: #69A475;
+}
+
+.color1 {
+	background-color: #DBDADF;
+}

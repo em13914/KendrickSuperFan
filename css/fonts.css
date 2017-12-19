@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Canterbury';
+	src: url('canterbury.ttf');
+}
+
+
+#oldeE {
+	font-family: 'Canterbury';
+	letter-spacing: 3px;
+	font-size: 1.4em;
+}
