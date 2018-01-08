@@ -43,6 +43,10 @@ main {
 	align-items: center;
 }
 
+.margin {
+	display: none;
+}
+
 .color0{
 	background-color: #69A475;
 }
