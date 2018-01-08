@@ -45,12 +45,12 @@
 	
 	.soundboard-container {
 		width: 100vw;
-		height: calc(100vh - 55px);
+		height: calc(100vh);
 	}
 
 	.soundboard-item {
 		width: 50%;
-		height: inherit;
+		height: calc((100vh - 55px)/3);
 	}
 	
 	#kdot0, #kdot1, #kdot2, #kdot3, #kdot4, #kdot5 {
