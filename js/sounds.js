@@ -1,6 +1,7 @@
 // Each if the images is "listening" for a click and then will run a specific function
 // https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 
+document.getElementById("kdot0").addEventListener("click", spit0);
 document.getElementById("kdot1").addEventListener("click", spit1);
 document.getElementById("kdot2").addEventListener("click", spit2);
 document.getElementById("kdot3").addEventListener("click", spit3);
