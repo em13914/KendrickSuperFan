@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<title>Kung Fu Kenny</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/therapboard.css">
+		<link rel="stylesheet" href="css/fonts.css">
+	</head>
+
+	<body>
+		<main>
+			<div class="kdot">
+					<img src="images/DAMN-medium.jpeg" class="max-size" id="manman"/>
+			</div>
+			<div class="soundboard-container">
+				<div class="soundboard-item color0">
+					<picture>
+						<source media="(min-width: 1000px)" srcset="images/kendrick_button-med-flipped.png">
+						<source srcset="images/kendrick_button-flipped.png">
+						<!-- <img> tag comes last so browsers that do not support picture element will still display an image instead of freaking out -->
+					<img src="images/kendrick_button-med-flipped.png" class="rapperImage" id="kdot0"/>
+					</picture>		
+				</div>
+				
+				<div class="soundboard-item color1">
+					<picture>
+						<source media="(min-width: 1000px)" srcset="images/kendrick_button-med-flipped.png">
+						<source srcset="images/kendrick_button-flipped.png">
+						<!-- <img> tag comes last so browsers that do not support picture element will still display an image instead of freaking out -->
+						<img src="images/kendrick_button-med-flipped.png" class="rapperImage" id="kdot1" />
+					</picture>
+				</div>
+				
+				<div class="soundboard-item color1">
+					<picture>
+						<source media="(min-width: 1000px)" srcset="images/kendrick_button-med-flipped.png">
+						<source srcset="images/kendrick_button-flipped.png">
+						<img src="images/kendrick_button-med-flipped.png" class="rapperImage" id="kdot2"/>
+					</picture>
+				</div>
+				
+				<div class="soundboard-item color0">
+					<picture>
+						<source media="(min-width: 1000px)" srcset="images/kendrick_button-med-flipped.png">
+						<source srcset="images/kendrick_button-flipped.png">
+						<img src="images/kendrick_button-med-flipped.png" class="rapperImage" id="kdot3"/>
+					</picture>
+				</div>
+				
+				<div class="soundboard-item color0">
+					<picture>
+						<source media="(min-width: 1000px)" srcset="images/kendrick_button-med-flipped.png">
+						<source srcset="images/kendrick_button-flipped.png">
+						<img src="images/kendrick_button-med-flipped.png" class="rapperImage" id="kdot4"/>
+					</picture>
+				</div>
+				
+				<div class="soundboard-item color1">
+					<picture>
+						<source media="(min-width: 1000px)" srcset="images/kendrick_button-med-flipped.png">
+						<source srcset="images/kendrick_button-flipped.png">
+						<img src="images/kendrick_button-med-flipped.png" class="rapperImage" id="kdot5"/>
+					</picture>
+				</div>
+			</div>
+			<div class="margin">
+			</div>
+		</main>
+		
+		
+		<div class="nav-wrapper">
+			<nav>
+				<!-- This div was created to act as the parent for both buttons; if either button is clicked the menu will toggle open/closed -->
+				<div id="icon">
+					<!-- The codes used in between the <button> tags are standard unicode character codes: https://www.abeautifulsite.net/the-unicode-character-for-menu-icons -->
+					<button class="hamburger" id="open-me">&#9776;</button>
+					<button class="cross" id="close-me">&times;</button>
+				</div>
+				<div class="menu" id="toggle-menu">
+					<ul>
+						<a href="#"><li id="oldeE">Compton.</li></a>
+						<a href="#"><li>LYRICS.</li></a>
+						<a href="#"><li>VIDEO.</li></a>
+						<a href="#"><li>ART.</li></a>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+		<!-- Load all your audio files and give them #ids to refer to individual tracks in your JS -->
+		<audio src="sounds/I_GOT.ogg" type="audio/ogg" id="igot"></audio>
+		<audio src="sounds/MR_1_THRU_5.ogg" type="audio/ogg" id="mr1thru5"></audio>
+		<audio src="sounds/YOU_MISEDUCATED.ogg" type="audio/ogg" id="miseducated"></audio>
+		<audio src="sounds/MY_DNA.ogg" type="audio/ogg" id="mydna"></audio>
+		<audio src="sounds/COMPTON.ogg" type="audio/ogg" id="compton"></audio>
+		<audio src="sounds/PRAY_FOR_ME.ogg" type="audio/ogg" id="pray"></audio>
+		
+		<!-- JS files linked at the bottom of the file for faster loading -->
+		<script src="js/menu.js"></script>
+		<script src="js/sounds.js"></script>
+	</body>
+</html>
+
+<!-- Inspiration for bottom navbar: http://bradfrost.github.io/this-is-responsive/index.html -->
+<!-- Gratitude favicon Japanese character: http://www.favicon.cc/?action=icon&file_id=754738 -->
