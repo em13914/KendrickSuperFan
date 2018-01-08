@@ -45,15 +45,11 @@
 	
 	.soundboard-container {
 		width: 100vw;
-		height: calc(100vh);
+		height: calc(100vh - 55px);
 	}
 
 	.soundboard-item {
 		width: 50%;
 		height: calc((100vh - 55px)/3);
-	}
-	
-	#kdot0, #kdot1, #kdot2, #kdot3, #kdot4, #kdot5 {
-		max-height: calc((100vh - 55px)*1/3);
 	}
 }
