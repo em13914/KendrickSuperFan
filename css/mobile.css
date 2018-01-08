@@ -32,6 +32,8 @@
 @media screen and (max-width: 1000px) {
 	main {
 		height: calc(200vh);
+	}
+	
 	.kdot {
 		width: 100vw;
 		height: calc((100vh - 55px)*2/3);
