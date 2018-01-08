@@ -30,13 +30,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-	body {
-		height: calc((100vh - 55px)*2/3) + 100vh);
+	.margin {
+		display: block;
 	}
 	
-	main {
-		margin-bottom: 55px;
-	}
 	.kdot {
 		width: 100vw;
 		height: calc((100vh - 55px)*2/3);
