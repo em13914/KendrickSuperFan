@@ -45,7 +45,7 @@
 	
 	.soundboard-container {
 		width: 100vw;
-		height: calc((100vh - 55px)*1/3);
+		height: calc(100vh - 55px);
 	}
 
 	.soundboard-item {
