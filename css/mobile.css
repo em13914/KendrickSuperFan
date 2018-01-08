@@ -52,4 +52,8 @@
 	#kdot0, #kdot1, #kdot2, #kdot3, #kdot4, #kdot5 {
 		max-height: calc((100vh - 55px)*1/3);
 	}
+	
+	#kdot4, kdot5 {
+		margin-bottom: 55px;
+	}
 }
