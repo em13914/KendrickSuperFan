@@ -45,6 +45,8 @@ main {
 
 .margin {
 	display: none;
+	height: 55px;
+	width: 100vw;
 }
 
 .color0{
