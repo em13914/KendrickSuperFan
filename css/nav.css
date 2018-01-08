@@ -103,21 +103,4 @@ nav{
 		transform: translate(0, -165px);
 		transition: transform 0.5s ease;
 	}
-
-	/* This wrapper is used to hide any content that overflows below the bottom of the menu */
-	.nav-wrapper {
-		position: absolute;
-		bottom: 0;
-		height: 220px;
-		overflow: hidden;
-		width: 100%;
-	}
-
-	.nav-wrapper.closed {
-		position: absolute;
-		bottom: 0;
-		height: 55px;
-		overflow: hidden;
-		width: 100%;
-	}
 }
