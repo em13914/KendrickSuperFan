@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 1000px) {
 	body {
-		height: 200vh;
+		height: calc(((100vh - 55px)*2/3)) + 100vh;
 	}
 	
 	main {
